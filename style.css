@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 
-
+* {
+   box-sizing: border-box; 
+}
 
 body {
     color:antiquewhite;
@@ -16,6 +18,13 @@ h1 {
 }
 
 h2  {
+    color:crimson;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+
+.atitle  {
     color:crimson;
     font-size: 2em;
     font-weight: bolder;
@@ -95,4 +104,23 @@ li a {
 .videocontainer p{
     text-align: justify;
     text-align: center;
+}
+
+.flexcontainer3 {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    gap: 3vw;
+
+}
+
+.flexcontainer3 div{
+
+  flex: 0 0 30vw;
+  align-content: center;
+  background-color: #252525;
+}
+
+.one {
+    float: right;
 }
