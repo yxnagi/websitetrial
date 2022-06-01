@@ -124,3 +124,26 @@ li a {
 .one {
     float: right;
 }
+
+.flexcontainerfight {
+    display: flex;
+    min-height: 30vh;
+    justify-content: left;
+    background-color: #3f1414;
+    gap: 10px;
+    align-content: center;
+}
+
+.flexcontainerfight img {
+    padding: 5px;
+    align-content: center;
+    float: left;
+}
+
+.fighttext {
+    color:azure;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    float: right;
+}
