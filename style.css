@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+
+body {
+    color:antiquewhite;
+    font-size: 25px;
+    background-color:black;
+    font-family: 'Segoe UI'; 
+}
+
+h1 {
+    color:crimson;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+h2  {
+    color:crimson;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+
+.textstyle1 {
+    color:azure;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.active {
+    color:azure;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #252525;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #555555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.videopage1 {
+    float: right;
+}
+
+.page1right {
+    float: right;
+    color:azure;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+.flexcontainer > div {
+    background-color: #3f1414;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.videocontainer {
+    float:right;
+    width:45%;
+}
+
+.videocontainter video {
+    float:right;
+    width: 45%;
+}
+
+.videocontainer p{
+    text-align: justify;
+    text-align: center;
+}
